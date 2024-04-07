@@ -1,0 +1,20 @@
+[package]
+name = "crawler"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+async-std = "1.2.0"
+# a http client
+surf = "1.0.3"
+# a server side component, can easily parse html 
+html5ever = "0.25.1"
+# for check url is valid
+url = "2.1.0"
+
+# http library
+hyper = "0.10.1"
+
